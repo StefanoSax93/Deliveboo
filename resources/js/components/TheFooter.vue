@@ -135,13 +135,6 @@ export default {
                         linkedin: "https://www.linkedin.com/in/debora-de-felice-0349a3186/",
                         iconLinkedin: "fa-brands fa-linkedin"
                     },
-                    {
-                        name: "Anna Tassone",
-                        git: "",
-                        iconGit: "fa-brands fa-github",
-                        linkedin: "",
-                        iconLinkedin: "fa-brands fa-linkedin"
-                    },
                 ],
                 social: [
                     {

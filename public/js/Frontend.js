@@ -5607,12 +5607,6 @@ __webpack_require__.r(__webpack_exports__);
           iconGit: "fa-brands fa-github",
           linkedin: "https://www.linkedin.com/in/debora-de-felice-0349a3186/",
           iconLinkedin: "fa-brands fa-linkedin"
-        }, {
-          name: "Anna Tassone",
-          git: "",
-          iconGit: "fa-brands fa-github",
-          linkedin: "",
-          iconLinkedin: "fa-brands fa-linkedin"
         }],
         social: [{
           href: "https://www.facebook.com/DeliverooIT",
@@ -6061,7 +6055,7 @@ var render = function render() {
     staticClass: "form-group my-3"
   }, [_c("label", {
     staticClass: "fw-semibold text-orange fs-5 pb-1"
-  }, [_vm._v("Nome")]), _vm._v(" "), _c("input", {
+  }, [_vm._v("Nome*")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -6090,7 +6084,7 @@ var render = function render() {
     staticClass: "form-group my-3"
   }, [_c("label", {
     staticClass: "fw-semibold text-orange fs-5 pb-1"
-  }, [_vm._v("Cognome")]), _vm._v(" "), _c("input", {
+  }, [_vm._v("Cognome*")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -6119,7 +6113,7 @@ var render = function render() {
     staticClass: "form-group my-3"
   }, [_c("label", {
     staticClass: "fw-semibold text-orange fs-5 pb-1"
-  }, [_vm._v("Indirizzo")]), _vm._v(" "), _c("input", {
+  }, [_vm._v("Indirizzo*")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -6148,7 +6142,7 @@ var render = function render() {
     staticClass: "form-group my-3"
   }, [_c("label", {
     staticClass: "fw-semibold text-orange fs-5 pb-1"
-  }, [_vm._v("Indirizzo\n                                                            e-mail")]), _vm._v(" "), _c("input", {
+  }, [_vm._v("Indirizzo\n                                                            e-mail*")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -6176,7 +6170,7 @@ var render = function render() {
     staticClass: "form-group my-3"
   }, [_c("label", {
     staticClass: "fw-semibold text-orange fs-5 pb-1"
-  }, [_vm._v("Numero di\n                                                            telefono")]), _vm._v(" "), _c("input", {
+  }, [_vm._v("Numero di\n                                                            telefono*")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -46665,7 +46659,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Hybri\Documents\Boolean\Esercizi\Deliverboo\resources\js\frontend.js */"./resources/js/frontend.js");
+module.exports = __webpack_require__(/*! C:\Users\Hybri\Documents\Boolean\Esercizi\Deliveboo\resources\js\frontend.js */"./resources/js/frontend.js");
 
 
 /***/ })

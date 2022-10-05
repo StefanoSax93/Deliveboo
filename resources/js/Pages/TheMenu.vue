@@ -144,33 +144,33 @@
                                                         @submit.prevent="onFormSubmit">
                                                         <div class="form-group my-3">
                                                             <label
-                                                                class="fw-semibold text-orange fs-5 pb-1">Nome</label>
+                                                                class="fw-semibold text-orange fs-5 pb-1">Nome*</label>
                                                             <input type="text" name="name" class="form-control" required
                                                                 minlength="1" maxlength="25" v-model="client.name" />
                                                         </div>
                                                         <div class="form-group my-3">
                                                             <label
-                                                                class="fw-semibold text-orange fs-5 pb-1">Cognome</label>
+                                                                class="fw-semibold text-orange fs-5 pb-1">Cognome*</label>
                                                             <input type="text" name="surname" class="form-control"
                                                                 required minlength="1" maxlength="25"
                                                                 v-model="client.surname" />
                                                         </div>
                                                         <div class="form-group my-3">
                                                             <label
-                                                                class="fw-semibold text-orange fs-5 pb-1">Indirizzo</label>
+                                                                class="fw-semibold text-orange fs-5 pb-1">Indirizzo*</label>
                                                             <input type="text" name="address" class="form-control"
                                                                 required minlength="5" maxlength="70"
                                                                 v-model="client.address" />
                                                         </div>
                                                         <div class="form-group my-3">
                                                             <label class="fw-semibold text-orange fs-5 pb-1">Indirizzo
-                                                                e-mail</label>
+                                                                e-mail*</label>
                                                             <input type="email" name="mail" class="form-control"
                                                                 required maxlength="255" v-model="client.mail" />
                                                         </div>
                                                         <div class="form-group my-3">
                                                             <label class="fw-semibold text-orange fs-5 pb-1">Numero di
-                                                                telefono</label>
+                                                                telefono*</label>
                                                             <input type="text" name="phone" class="form-control"
                                                                 required pattern="[0-9]{10}" v-model="client.phone" />
                                                         </div>
