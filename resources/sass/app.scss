@@ -1,0 +1,125 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Success Page
+@import 'success';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//FontAwesome
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.title-order {
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-container {
+    display: flex;
+
+    main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        .main-scroll-container {
+            overflow: auto;
+            flex: 1;
+        }
+    }
+}
+
+.text-bg-dark {
+    background-color: rgba(20, 20, 20, 0.984);
+
+    .nav-link {
+        color: white;
+
+    }
+
+    .nav-link.active {
+        background: linear-gradient(to right, $color-primary, $color-secondary);
+        color: black;
+    }
+
+    svg {
+        fill: var(--bs-light);
+    }
+}
+
+.btn-back {
+    color: $color-primary;
+    transition: color 0.4s;
+
+    &:hover {
+        color: $color-secondary;
+    }
+}
+
+.x {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.4s;
+
+    &:hover {
+        background-color: lighten($color: rgba(0, 0, 0, 0.5), $amount: 30);
+    }
+
+    img {
+        position: absolute;
+        height: 100%;
+        object-fit: cover;
+        z-index: -10;
+    }
+
+    h2 {
+        color: white;
+        text-decoration: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.person-digger {
+    background: -webkit-linear-gradient(-45deg, rgb(2, 175, 25) 5%, rgb(255, 255, 255) 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg_primary {
+    background-color: $color-primary;
+}
+
+.text_primary {
+    color: $color-primary;
+}
+
+.bg_secondary {
+    background-color: $color-secondary;
+}
+
+.text_secondary {
+    color: $color-secondary;
+}
+
+.sidebar {
+    width: 280px;
+    transition: all 0.4s;
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        width: 90px;
+    }
+
+}
